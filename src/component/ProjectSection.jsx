@@ -8,6 +8,9 @@ import videologo from "../assets/projects/videologo.png"
 import foodcart from "../assets/projects/foodcart.jpg"
 import netflixposter from "../assets/projects/netflix.jpg"
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md';
+import typing from "../assets/projects/typing.jpg"
+import typinglogo from "../assets/projects/typing.png"
+
 
 
 
@@ -15,6 +18,18 @@ import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md';
 
 
 const projectData = [
+
+  {
+    id: 'chatapp',
+    logo: typinglogo,
+    video: 'https://videos.pexels.com/video-files/10374923/10374923-sd_640_360_24fps.mp4',
+    poster: typing,
+    stat: '94%',
+    statDesc: 'job placement rate',
+    desc: "Typing is a feature-rich, real-time chat application built with the MERN stack. It delivers seamless, instant messaging powered by Socket.io, ensuring a smooth and engaging user experience with React 19, Tailwind CSS v4, and DaisyUI.",
+    type: 'Mern Stack Project',
+    link: 'https://typing-chatapp.onrender.com/'
+  },
     {
       id: 'foodcart',
       logo: foodcartlogo,
@@ -27,7 +42,7 @@ const projectData = [
       link: 'https://food-cartss.web.app/'
     },
     {
-      id: 'edutech',
+      id: 'netflix',
       logo: netflixlogo,
       video: 'https://videos.pexels.com/video-files/5082592/5082592-uhd_2732_1440_25fps.mp4',
       poster: netflixposter,
